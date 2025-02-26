@@ -12,7 +12,8 @@ The repository consists in three folders: DATSET, MATLAB, and R.
 The DATASET folder contains:
 
 
-The MATLAB folder contains:
+The MATLAB folder contains: 
+
 stsc.m        - function implementing...
 
 The R folder contains
