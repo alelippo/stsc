@@ -7,17 +7,17 @@ Matlab and R code used to implement and test source-to-sink communicability in t
 
 by D.Bertaccini, L.Chiricosta, A.Filippo.
 
-The repository consists in three folders: DATSET, MATLAB, and R
+The repository consists in three folders: DATSET, MATLAB, and R.
 
 The DATASET folder contains:
 
 
 The MATLAB folder contains:
-stsc.m        - function implementing the power method described in the manuscript.
+stsc.m        - function implementing...
 
 The R folder contains
 
-stsc.R    - function that removes empty layers from a 3rd order tensor
+stsc.R    - function that...
 test.R    - SCRIPT 
 
 
