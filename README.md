@@ -1,7 +1,28 @@
 `stsc` 
 ==========
 
-About
------
+Matlab and R code used to implement and test source-to-sink communicability in the paper
 
-this is a test
+		"Source-to-sink communicability: a new centrality measure for DAGs" 
+
+by D.Bertaccini, L.Chiricosta, A.Filippo.
+
+The repository consists in three folders: DATSET, MATLAB, and R
+
+The DATASET folder contains:
+
+
+The MATLAB folder contains:
+stsc.m        - function implementing the power method described in the manuscript.
+
+The R folder contains
+
+stsc.R    - function that removes empty layers from a 3rd order tensor
+test.R    - SCRIPT 
+
+
+Last modified: 26/02/2025 by Alessandro Filippo 
+
+>> Reference:
+>> "Source-to-sink communicability: a new centrality measure for DAGs", xxxx
+>>  A.Filippo (filippo@mat.uniroma2.it)
