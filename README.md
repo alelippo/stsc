@@ -24,5 +24,5 @@ test.R    - SCRIPT
 Last modified: 26/02/2025 by Alessandro Filippo 
 
 >> Reference:
->> "Source-to-sink communicability: a new centrality measure for DAGs", xxxx
->>  A.Filippo (filippo@mat.uniroma2.it)
+>>  D.Bertaccini, L.Chiricosta, A.Filippo (filippo@mat.uniroma2.it). "Source-to-sink communicability: a new centrality measure for DAGs", xxxx
+>> 
