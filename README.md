@@ -11,15 +11,18 @@ The repository consists in two folders: DATASET, CODE.
 
 The DATASET folder contains:
 
-adjacency matrices of five pathways described in the work
+Adjacency matrices of the five pathways analyzed in the paper.
 
 The CODE folder contains: 
 
-stsc.m       
+pathway_preprocessing.R 	
+- R script that manages the download of the pathways from the Kyoto Encyclopedia of Genes and Genomes (KEGG) and their reorganization into directed graphs. The adjacency matrices of the graphs are then stored into .tsv files.
+
+stsc.m
 - MATLAB function that computes the source-to-sink centrality of a directed acyclic graph with adjacency matrix A. 
 
-pathway_preprocessing.R 	
-- R script that manages the download of the pathways from the Kyoto Encyclopedia of Genes and Genomes (KEGG) and their reorganization into directed graphs.  
+pathway_analysis.m
+- MATLAB script used to analyse the pathways of the DATASET with various centrality measures. 
 
 Last modified: 05/06/2025 by Alessandro Filippo 
 
