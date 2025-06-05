@@ -7,7 +7,7 @@ Matlab and R code used to implement and test source-to-sink communicability in t
 
 by D.Bertaccini, L.Chiricosta, A.Filippo.
 
-The repository consists in two folders: DATASET, CODE.
+The repository consists in two folders: DATASET and CODE.
 
 The DATASET folder contains:
 
