@@ -22,7 +22,7 @@ stsc.m
 - MATLAB function that computes the source-to-sink centrality of a directed acyclic graph with adjacency matrix A. 
 
 pathway_analysis.m
-- MATLAB script used to analyse the pathways of the DATASET with various centrality measures. 
+- MATLAB script used to analyse the pathways of the DATASET. 
 
 Last modified: 05/06/2025 by Alessandro Filippo 
 
