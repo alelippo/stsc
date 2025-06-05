@@ -11,7 +11,7 @@ The repository consists in two folders: DATASET and CODE.
 
 The DATASET folder contains:
 
-Adjacency matrices of the five pathways analyzed in the paper.
+Five .tsv files encoding the adjacency matrices of the five pathways analyzed in the paper.
 
 The CODE folder contains: 
 
