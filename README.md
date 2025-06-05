@@ -22,7 +22,7 @@ stsc.m
 - MATLAB function that computes the source-to-sink communicability of the nodes of a directed acyclic graph with adjacency matrix A. 
 
 pathway_analysis.m
-- MATLAB script used to analyse the pathways of the DATASET. 
+- MATLAB script used to analyse the pathways in the DATASET folder. 
 
 Last modified: 05/06/2025 by Alessandro Filippo 
 
