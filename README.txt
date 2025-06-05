@@ -7,23 +7,20 @@ Matlab and R code used to implement and test source-to-sink communicability in t
 
 by D.Bertaccini, L.Chiricosta, A.Filippo.
 
-The repository consists in three folders: DATSET, MATLAB, and R.
+The repository consists in two folders: DATASET, CODE.
 
 The DATASET folder contains:
 
+adjacency matrices of five pathways described in the work
 
-The MATLAB folder contains: 
+The CODE folder contains: 
 
-stsc.m        - function implementing...
+stsc.m        - MATLAB function that computes the source-to-sink centrality of a directed acyclic graph with adjacency matrix A. 
 
-The R folder contains
+pathway_preprocessing.R 	- R script that manages the download of the pathway and their reorganization into directed graphs.  
 
-stsc.R    - function that...
-test.R    - SCRIPT 
-
-
-Last modified: 09/04/2025 by Alessandro Filippo 
+Last modified: 05/06/2025 by Alessandro Filippo 
 
 >> Reference:
->>  D.Bertaccini(bertaccini@mat.uniroma2.it), L.Chiricosta(luigi.chiricosta@irccsme.it), A.Filippo (filippo@mat.uniroma2.it). "Source-to-sink communicability: a new centrality measure for directed acyclic networks", xxxx
+>>  D.Bertaccini(bertaccini@mat.uniroma2.it), L.Chiricosta(luigi.chiricosta@irccsme.it), A.Filippo (filippo@mat.uniroma2.it). "Source-to-sink communicability: a new centrality measure for directed acyclic networks", submitted.
 >> 
