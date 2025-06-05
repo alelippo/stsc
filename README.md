@@ -19,7 +19,7 @@ pathway_preprocessing.R
 - R script that manages the download of the pathways from the Kyoto Encyclopedia of Genes and Genomes (KEGG) and their reorganization into directed graphs. The adjacency matrices of the graphs are then stored into .tsv files.
 
 stsc.m
-- MATLAB function that computes the source-to-sink centrality of a directed acyclic graph with adjacency matrix A. 
+- MATLAB function that computes the source-to-sink communicability of the nodes of a directed acyclic graph with adjacency matrix A. 
 
 pathway_analysis.m
 - MATLAB script used to analyse the pathways of the DATASET. 
