@@ -15,9 +15,11 @@ adjacency matrices of five pathways described in the work
 
 The CODE folder contains: 
 
-stsc.m        - MATLAB function that computes the source-to-sink centrality of a directed acyclic graph with adjacency matrix A. 
+stsc.m       
+- MATLAB function that computes the source-to-sink centrality of a directed acyclic graph with adjacency matrix A. 
 
-pathway_preprocessing.R 	- R script that manages the download of the pathway and their reorganization into directed graphs.  
+pathway_preprocessing.R 	
+- R script that manages the download of the pathways from the Kyoto Encyclopedia of Genes and Genomes (KEGG) database and their reorganization into directed graphs.  
 
 Last modified: 05/06/2025 by Alessandro Filippo 
 
