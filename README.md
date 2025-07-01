@@ -24,7 +24,7 @@ stsc.m
 pathway_analysis.m
 - MATLAB script used to analyse the pathways in the DATASET folder. 
 
-Last modified: 05/06/2025 by Alessandro Filippo 
+Last modified: 01/07/2025 by Alessandro Filippo 
 
 >> Reference:
 >>  D.Bertaccini(bertaccini@mat.uniroma2.it), L.Chiricosta(luigi.chiricosta@irccsme.it), A.Filippo (filippo@mat.uniroma2.it). "Source-to-sink communicability: a new centrality measure for directed acyclic networks", submitted.
