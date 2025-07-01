@@ -14,7 +14,6 @@ clear; clc; close all; lastwarn('');
 name = 'hsa05022';
 %name = 'hsa05200';
 %name = 'hsa05010';
-%name = 'hsa05014';
 %name = 'hsa04010';
 
 disp(name)
