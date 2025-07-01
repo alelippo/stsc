@@ -109,7 +109,8 @@ top_hub_auth_sum = nodeNames(I_hub_auth(1:k));
 
 % STS communicability
 
-x = stsc(A);
+beta = 1;
+x = stsc(A,beta);
 [values,I_sts] = maxk(x,n);
 values_sts = values(1:k);
 top_sts = nodeNames(I_sts(1:k));
