@@ -128,27 +128,3 @@ disp([' pgr = ',num2str(corr(I_pgr,I_sts,'type','Kendall'))])
 disp([' katz = ',num2str(corr(I_katz,I_sts,'type','Kendall'))])
 disp([' hub_auth = ',num2str(corr(I_hub_auth,I_sts,'type','Kendall'))])
 disp('--')
-
-% INTERSECTION SIMILARITY
-
-disp('Top k intersection similarity')
-disp([' deg = ',num2str(my_top_k_intersection_similarity(I_sts(1:k),I_deg(1:k)))])
-disp([' pgr = ',num2str(my_top_k_intersection_similarity(I_sts(1:k),I_pgr(1:k)))])
-disp([' katz = ',num2str(my_top_k_intersection_similarity(I_sts(1:k),I_katz(1:k)))])
-disp([' hub_auth = ',num2str(my_top_k_intersection_similarity(I_sts(1:k),I_hub_auth(1:k)))])
-disp('--')
-
-function I = my_top_k_intersection_similarity(x,y,k)
-% Function that computes the "top k Intersection similarity" of two ordered
-% lists as described in R. Fagin, R. Kumar, D. Sivakumar. Comparing top k 
-% lists. SIAM J. Discret. Math., 17:134–160, 2003
-    if nargin<3
-        k = min(length(x),length(y));
-    end
-    I = 0;     
-    for j = 1:k
-        I = I + length(setxor(x(1:j),y(1:j)))/(2*j); 
-    end    
-    I = I/k; 
-end
-
