@@ -1,6 +1,5 @@
 `stsc` 
 ==========
-
 Matlab and R code used to implement and test source-to-sink communicability in the paper
 
 		"Source-to-sink communicability: a new centrality measure for directed acyclic networks" 
